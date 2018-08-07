@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#clock {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+span {
+	font-size: 4rem;
+	font-family: monospace;
+}
+
+.smalltext {
+	text-align: center;
+	font-family: monospace;
+}
+
+.forma {
+	margin-left: 2rem;
+	margin-top: 2rem;
+	background-color: gold;
+	padding: 2rem;
+	width: 15rem;
+	border-radius: 25px;
+}
+
+button {
+	padding: 0.7rem;
+	width: 6rem;
+	border-radius: 25px;
+}

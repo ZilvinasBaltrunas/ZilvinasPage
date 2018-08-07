@@ -1,0 +1,190 @@
+*{
+	box-sizing: border-box;
+
+	/*this line just for developing purpose*/
+	/*border: 1px solid #000!important;*/
+}
+
+body {
+	background: url('../img/fond.png');
+	font-family: "Open Sans", Arial;
+	font-size: 14px;
+	color: #424953;
+	line-height: 1.8;
+}
+
+a {
+	color: #424953;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Slabo 27px";
+	font-weight: normal;
+	text-align: center;
+	font-size: 2em;
+}
+
+.clearfix:after {
+	clear: both;
+	line-height: 0;
+	display: table;
+	content: '';
+}
+
+.container {
+	min-width: 800px;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.header {
+	background: #25b3b4;
+	border-top: 3px solid #1b9ca2;
+	border-bottom: 3px solid #1b9ca2;
+	margin-top: 50px;
+	text-align: center;
+	min-width: 800px;
+	margin-bottom: 25px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #fff;
+	display: block;
+	padding: 0 8px;
+}
+
+/*-----1 main bloko stilius-----*/
+
+.welcome-text {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;	
+}
+
+.welcome-text h1 {
+	font-size: 2em;
+}
+
+
+/*-----1 main bloko stilius-----*/
+
+/*-----2, 3 main bloku stilius-----*/
+
+.left-block {
+	width: 69%;
+	float: left;
+	background-color: #b6dfdd;
+	padding: 20px 15px;
+}
+
+.right-block {
+	width: 30%;
+	float: right;
+}
+
+.left-block article {
+	float: left;
+	width: 50%;
+	padding: 0 15px;
+}
+
+.left-block article img {
+	border-radius: 100%;
+	float: left;
+	margin-right: 10px;
+}
+
+h2 {
+	color: #25b3b4;
+	font-size: 3em;
+}
+h3 {
+	font-size: 1.5em;
+}
+
+section > p {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.btn {
+	color: white;
+	background: #1b9ca2;
+	padding: 10px;
+}
+
+section article footer {
+	text-align: right;
+}
+
+.btn:after {
+    content: "\f055";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left: 5px;
+}
+
+.drop:before,
+.drop:after {
+    content: "\f043";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #25b3b4;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*-----paskutinis blokas-----*/
+
+aside {
+	background: #25b3b4;
+	border: 3px solid #1b9ca2;
+	color: #fff;
+	padding: 10px;
+}
+
+aside img {
+	float: right;
+	margin-right: -50px;
+	margin-top: -100px;
+}
+
+.data:before {
+    content: "\f075";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left: 5px;
+}
+
+aside p {
+	color: #b6dfdd;
+}
+
+span {
+	color: #fff;
+}
+
+aside ul li p {
+	color: #b6dfdd;
+}
+
+footer p {
+	text-align: center;
+	margin-top: 20px;
+}

@@ -1,0 +1,325 @@
+*{
+	box-sizing: border-box;
+	/*border: 1px solid #000!important;*/
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+}
+
+.clearfix:after {
+	clear: both;
+	line-height: 0;
+	display: table;
+	content: '';
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+a {
+	color: #424953;
+	text-decoration: none;
+	color: #49C3B4;
+	display: inline-block;
+	padding: 1rem;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation ul li {
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Courgette';
+}
+
+.logo {
+	/*float: left;*/
+}
+
+.logo img {
+	height: 80px;
+}
+
+.navigation {
+	/*float: left;*/
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+.fa {
+	display: block;
+}
+
+.center {
+	text-align: center;
+}
+
+.slideshow {
+	background-image: url("../img/fond.jpg");
+	padding: 28% 0 18% 0;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+}
+
+.description {
+	background-color: rgba(73, 195, 180, 0.75);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Courgette';
+}
+
+.slideshow strong, span {
+	display: block;
+	font-size: 18px;
+}
+
+.promo {
+	background-color: #49C3B4;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.sec {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.text {
+	margin-bottom: 15px;
+}
+
+.exp {
+	list-style-position: inside;
+}
+
+footer span {
+	text-align: center;
+	background-color: #49C3B4;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer iframe {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.green {
+	background: #B7B12E;
+}
+
+.column {
+	float: left;
+	width: 33%;
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+}
+
+h4 {
+	font-family: 'Courgette';
+	font-size: 2rem;
+}
+
+.green {
+  background-color: #B7B12E;
+  color: white;
+}
+
+.column {
+  width: 33%;
+  float: left;
+}
+
+.image { background: red;}
+
+.read-more { background: cyan;}
+
+.column:hover .read-more {
+  opacity: 1;
+/*   display: block; */
+}
+
+
+.image,
+.read-more,
+.read-more a {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.read-more {
+  background: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+/*   display: none; */
+  opacity: 0;
+  transition: all 0.3s;
+}
+.read-more a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 300px;
+  font-family: "Open Sans";
+}
+
+
+
+/*----------INNER PAGE----------*/
+
+
+/*----------TABLES----------*/
+.inner {
+	font-size: 1em;
+}
+
+h2 {
+	font-family: 'Courgette';
+	font-size: 2rem;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+table, th, td {
+  border: 1px solid grey;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+th {
+	background-color: #49C3B4;
+	font-family: 'Courgette';
+	color: #fff;
+	text-align: left;
+	padding: 10px;
+}
+
+td {
+	padding-left: 10px;
+}
+
+td+td {
+	text-align: center;
+}
+
+tr:nth-child(even) td {
+	background-color: #DCDCDC;
+}
+
+
+/*----------INPUTS----------*/
+
+.left {
+	float: left;
+	width: 48%;
+}
+
+.right {
+	float: right;
+	width: 48%;
+}
+
+input[type="text"] {
+	color: #49C3B4;
+	border: none;
+	border-bottom: 2px solid #49C3B4;
+	width: 100%;
+}
+
+input:focus {
+	outline: none;
+	box-shadow: 0px 0px 5px #49C3B4;
+}
+
+
+form {
+	margin-bottom: 30px;
+}
+
+/*----------CHECKBOX----------*/
+
+.checkbox, .radio, .select, .button {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h3 {
+	margin-bottom: 30px;
+	font-family: 'Courgette';
+}
+
+.checkbox label input, .radio label input {
+	margin: 20px;
+}
+
+.select select {
+	width: 100%;
+	color: #49C3B4;
+	border: 2px solid #49C3B4;
+	background-color: white;
+	padding: 10px;
+	outline: none;
+}
+
+.button input {
+	color: white;
+	background-color: #49C3B4;
+	padding: 10px 20px;
+	outline: none;
+	border: none;
+}
+
+a:hover {
+	color: black;
+} 
+
+/*         _
+       .__(.)<
+        \___)   
+ ~~~~~~~~~~~~~~~~~~*/

@@ -1,0 +1,12 @@
+.list {
+	border: 2px solid green;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.photo {
+	width: 5rem;
+	height: 5rem;
+	background-size: cover;
+	background-position: center;
+}

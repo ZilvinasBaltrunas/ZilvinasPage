@@ -1,0 +1,48 @@
+body {
+	background: url(../css/clock.jpg);
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	border-radius: 20px;
+	border: solid 2px;
+	border-color: #fff;
+	background: black;
+	color: #fff;
+	padding: 20px;
+	margin: 10px;
+}
+
+#clock {
+	height: 265px;
+	width: 265px;
+	margin-left: 711px;
+	margin-top: 207px;
+	position: relative;
+}
+
+.hand {
+	background: url(../css/hands.png);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 260px;
+	position: absolute;
+	left: 117px;
+}
+
+.seconds {
+	background-position: -26px 0;
+}
+
+.minutes {
+	background-position: -59px 0;
+}
+
+.miliseconds {
+
+}

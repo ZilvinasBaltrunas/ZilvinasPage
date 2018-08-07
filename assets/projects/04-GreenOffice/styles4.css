@@ -1,0 +1,183 @@
+/*cia pirmas etapas - virsutinis blokas*/
+
+.container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+body > div > header {
+	background-color: #B8CB21;
+
+}
+nav > ul > li >a {
+	color: #2C4726;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+nav {
+	margin: 38px 30px;
+}
+.right {
+	float: right;
+
+}
+
+.clearfix:after {
+    clear: both;
+    line-height: 0;
+    height: 0;
+    display: table;
+    content: "";
+}
+
+/*cia pirmas etapas - virsutinis blokas*/
+
+
+/*antras etapas - apatiniai 2 blokai*/
+
+*{
+	box-sizing: border-box;
+}
+
+
+main {
+	background: white;
+}
+
+article > header {
+	color: #B8CB21;
+}
+
+.left {
+	float: left;
+}
+
+aside {
+	width: 35%;
+	border-right:solid 1px;
+	border-color: grey;
+	padding : 15px;
+}
+
+section {
+		width: 65%;
+		border-left:solid 1px;
+		border-color: grey;
+		margin-left: -1px;
+		padding : 15px;
+}
+
+aside > article > img {
+	max-width: 100%;
+}
+
+main {
+	padding : 15px;
+}
+
+body > p {
+	text-align: center;
+}
+
+
+/*header,
+div,
+main,
+aside,
+section,
+footer {
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 10px;
+}*/
+
+section > article > img {
+	max-width: 40%;
+}
+
+p, article > ul > li {
+	font-size: 14px;
+}
+
+body {
+	background-image: url(4module/img/fond.png);
+}
+
+section.left article img {
+	float: left;
+	margin-right: 20px;
+}
+
+body > p {
+	font-style: italic;
+}
+
+.button {
+	float:right;
+}
+
+p.button a {
+	color: white;
+	text-decoration: none;
+	background-color: #B8CB21;
+	padding: 10px;
+}
+.awesome:before {
+	content: "\f1b9";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 7px;
+}
+
+/*Contact Puslapis*/
+
+.underline {
+	text-decoration: underline;
+}
+
+.tel, .mail, .adr {
+	color: blue;
+}
+
+.tel:before {
+	color: black;
+	content: "\f095";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 7px;
+}
+
+.mail:before {
+	color: black;
+	content: "\f003";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 7px;
+}
+
+.adr:before {
+	color: black;
+	content: "\f015";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 7px;
+}
+
+iframe {
+	width: 100%;
+}

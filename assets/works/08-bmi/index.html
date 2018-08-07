@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMI index calculator</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600&amp;subset=latin-ext" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<section class="about">
+			<h1 class="textAlign">Your BMI calculator</h1>
+			<p class="textAlign">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</p>
+		</section>
+		<section class="sectionOne">
+			<div class="sectionOne__info">
+				<h4 class="textAlign marginTop">Date of birth</h4>
+				<input class="inp marginBottom" type="date" name="">
+			</div>
+		</section>
+		<section class="sectionTwo">
+			<div class="sectionTwo__wid">
+				<h4 class="textAlign">Height</h4>
+				<div class="sectionTwo__buttons">
+					<div id="btnHi" class="button radiusLeft disabled">IMPERIAL</div>
+					<div id="btnHm" class="button radiusRight enabled">METRIC</div>
+				</div>
+				<div class="sectionTwo__wid__in">
+					<input class="hei inps" type="number" name="">
+					&nbsp;<span class="cm">cm</span>
+				</div>
+			</div>
+			<div class="sectionTwo__wid">
+				<h4 class="textAlign">Weight</h4>
+				<div class="sectionTwo__buttons">
+					<div id="btnWi" class="button radiusLeft disabled">IMPERIAL</div>
+					<div id="btnWm" class="button radiusRight enabled">METRIC</div>
+				</div>
+				<div class="sectionTwo__wid__in">
+					<input class="wei inps" type="number" name="">
+					&nbsp;<span class="kg">kg</span>
+				</div>
+			</div>
+		</section>
+		<section class="sectionThree">
+			<h4 class="marginTop textAlign">Gender</h4>
+			<div class="btns">
+				<div id="male" class="btn enabled">Male</div>
+				<div id="female" class="btn disabled">Female</div>
+			</div>
+		</section>
+		<section class="sectionFour">
+			<h3 class="textAlign">Body mass index (BMI) = <span class="result">0</span></h3>
+			
+			<div class="scale">
+				<div class="arrow">
+					<!--  -->
+				</div>
+				<div class="red left scalePart spOne"><p class="textAlign">Underweight</p></div>
+				<div class="green scalePart spTwo"><p class="textAlign">Health weight</p></div>
+				<div class="yellow scalePart spThree"><p class="textAlign">Overweight</p></div>
+				<div class="red right scalePart spFour"><p class="textAlign">Obese</p></div>
+			</div>
+		</section>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

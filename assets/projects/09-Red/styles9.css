@@ -1,0 +1,250 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	background-color: #f2f2f2;
+	color: #684f53;
+}
+
+.flexslider {
+	/*overflow: hidden;*/
+}
+
+.clearfix:after {
+	clear: both;
+	line-height: 0;
+	display: table;
+	content: '';
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;  /*lygiuoja container bloka per centra*/
+}
+
+p {
+	line-height: 180%;
+}
+
+
+/*-------HEADER--------*/
+
+
+.logo {
+	float: left;
+}
+.flex-direction-nav .flex-next {
+	right: 0!important;
+}
+.flex-direction-nav .flex-prev {
+	left: 0!important;
+}
+.nav {
+	float: right;
+	text-align: right;
+}
+
+header {
+	padding: 10px 0;
+}
+
+header nav ul li:hover a {
+	background-color: #f45d54;
+	color: #ffffff;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #a4243d;
+	display: block; /*butinai a taga daryti display:; block!!*/
+	padding: 15px;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+/*-------MAIN--------*/
+h2 {
+	text-transform: uppercase;
+	color: #a4243d;
+	border-bottom: solid;
+	border-color: #f45d54;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+span {
+	color: #f45d54;
+}
+
+.column {
+	float: left;
+	width: 25%;
+}
+
+.content {
+	padding: 15px;
+	background-color: white;
+	margin: 15px;
+}
+.content img {
+	width: 100%;
+}
+
+h3 {
+	color: #a4243d;
+	font-size: 22px;
+	text-align: center;
+	border-bottom: solid;
+	padding: 10px;
+	margin: 10px;
+}
+
+.content p {
+	text-align: center;
+}
+
+
+
+
+/*-------lower container clearfix-------*/
+
+.left-text {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+
+.video {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+
+video {
+	width: 100%;
+}
+
+.mygtukai {
+	text-align: center;
+	font-size: 3.5rem;
+}
+
+.mygtukai i {
+	color: #FF7F50;
+	/*margin: 20px 50px;*/
+}
+
+.mygtukai a {
+	margin: 20px 50px;
+}
+
+
+
+/*-------FOOTER--------*/
+
+footer {
+	text-align: center;
+	background-color: #684f53;
+	color: #ffffff;
+	padding: 30px 0;
+	margin-top: 60px;
+}
+
+footer nav ul li {
+	display: inline-block;
+}
+
+footer nav ul li a {
+	color: white;
+	display: block;
+	padding: 15px;
+}
+
+
+/*-------------MAZESNIAM EKRANUI-----------*/
+
+@media (min-width: 1145px) {
+	.list {
+		margin: 0 -15px;
+	}
+}
+
+/*-------TABLET--------*/
+
+@media (max-width: 991px) {
+	.container {
+		max-width: 100%;
+	}
+	
+	.column {
+		float: left;
+		width: 50%;
+	}
+	
+	.left-text, .video {
+		padding: 1em;
+	}
+
+	footer {
+		margin-top: 0;
+	}
+	
+	footer .container {
+		padding: 10px;
+	}
+
+	.mygtukai a {
+		display: block;
+	}
+}
+
+
+/*-------MOBILE--------*/
+
+@media (max-width: 767px) {
+	.container {
+		max-width: 100%;
+	}
+
+	header nav ul li {
+		display: block;
+	}
+	
+	.column {
+		float: none;
+		width: 100%;
+		padding: 1em;
+	}
+	
+	.content {
+		margin: 0 15px;
+	}
+	
+	.left-text, .video {
+		float: none;
+		width: auto;
+		text-align: center;
+	}
+	
+	.video {
+		padding: 1.5em;
+		margin-top: 0;
+	}
+
+	footer {
+		margin-top: 0;
+	}
+	
+	footer .container {
+		padding: 10px;
+	}
+	
+	footer nav ul li a {
+		padding: 5px;
+	}
+}

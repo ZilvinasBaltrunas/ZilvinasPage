@@ -1,0 +1,42 @@
+.container {
+	margin: 0 auto;
+	max-width: 1180px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.cube {
+		line-height: 1.6;
+		border: 0.5rem solid #fff;
+		max-width: 20rem;
+		padding: 1rem;
+		.header {
+			margin-bottom: 1rem;
+		}
+		.lets {
+			margin-bottom: 1rem;
+		}
+		.text {
+			text-align: center;
+		}
+		.font-color {
+			color: #fff;
+		}
+	}
+}
+
+.centerBox {
+	display: flex;
+	justify-content: center;
+	.button {
+		color: #2D2F33;
+		margin-top: 0.5rem;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.cube {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+}

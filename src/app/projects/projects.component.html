@@ -1,0 +1,10 @@
+<div class="main" *ngIf="projects">
+	<div class="container">
+		<div class="box" *ngFor="let project of projects">
+			<a href="{{project.href}}">
+				<img class="image" src="{{project.src}}">
+				<h3 class="title">{{project.name}}</h3>
+			</a>
+		</div>
+	</div>
+</div>

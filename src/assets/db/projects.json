@@ -1,0 +1,71 @@
+[{
+	"id": 1,
+	"href": "../../assets/projects/04-GreenOffice/4modulis.html",
+	"src": "../assets/images/greenOffice.jpg",
+	"name": "Green Office template"
+}, {
+	"id": 2,
+	"href": "../../assets/projects/05-FishChips/4module.html",
+	"src": "../assets/images/fish.jpg",
+	"name": "Fish & Chips template"
+}, {
+	"id": 3,
+	"href": "../../assets/projects/06-Yoga/module5/index.html",
+	"src": "../assets/images/yoga.jpg",
+	"name": "Ila Yoga template"
+}, {
+	"id": 4,
+	"href": "../../assets/projects/08-Soul/index.html",
+	"src": "../assets/images/soul.jpg",
+	"name": "Crea Soul template"
+}, {
+	"id": 5,
+	"href": "../../assets/projects/09-Red/index.html",
+	"src": "../assets/images/redWolf.jpg",
+	"name": "Red Wolf template"
+}, {
+	"id": 6,
+	"href": "../../assets/projects/11-John/index.html",
+	"src": "../assets/images/johnDoe.jpg",
+	"name": "John Doe template"
+}, {
+	"id": 7,
+	"href": "../../assets/projects/12-House/index.html",
+	"src": "../assets/images/houses.jpg",
+	"name": "House'Home template"
+}, {
+	"id": 8,
+	"href": "../../assets/projects/13-Cup/index.html",
+	"src": "../assets/images/cup.jpg",
+	"name": "Cup of Tea template"
+}, {
+	"id": 9,
+	"href": "../../assets/projects/20-shopTalk/index.html",
+	"src": "../assets/images/shopTalk.jpg",
+	"name": "Shop Talk template"
+}, {
+	"id": 10,
+	"href": "../../assets/projects/21-parking/workfile.html",
+	"src": "../assets/images/parking.jpg",
+	"name": "Parking template"
+}, {
+	"id": 11,
+	"href": "../../assets/projects/22-mobile/index.html",
+	"src": "../assets/images/mobile.jpg",
+	"name": "Mobile Business template"
+}, {
+	"id": 12,
+	"href": "../../assets/projects/23-plain/index.html",
+	"src": "../assets/images/plain.jpg",
+	"name": "Plain template"
+}, {
+	"id": 13,
+	"href": "../../assets/projects/24-digital/index.html",
+	"src": "../assets/images/digital.jpg",
+	"name": "Digital Agency template"
+}, {
+	"id": 14,
+	"href": "../../assets/projects/25-bureau/index.html",
+	"src": "../assets/images/bureau.jpg",
+	"name": "Bureau template"
+}]

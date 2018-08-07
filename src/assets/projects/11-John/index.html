@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+	<title>--John Doe--</title>
+</head>
+<body>
+	<header class="container clearfix">
+		<a href="#" class="logo">
+			<img src="img/logo.svg" alt="picture">
+			John Doe
+		</a>
+			
+		<nav class="navi">
+			<ul>
+				<li><a href="#" class="list-group-item"><i class="fa fa-home fa-fw"></i>Accueil</a></li>
+				<li><a href="#" class="list-group-item"><i class="fa fa-folder-open fa-fw"></i>Realisations</a></li>
+				<li><a href="#" class="list-group-item"><i class="fa fa-envelope fa-fw"></i>Contacts</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="forest">
+			<div class="container">
+				<h1>- Bonjour et bienvenue sur monportfolio -</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat quidem adipisci, iste maxime sapiente, quam ipsum eveniet saepe corporis pariatur? Qui, aperiam! Modi earum ut ex, vero ab porro.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptas laudantium debitis facilis quis, veniam autem fugiat maxime vitae? Cum quam aliquam consequatur illo, nobis alias ab expedita. Asperiores, omnis.</p>
+				<a href="#">Decouvrez-moi !</a>
+			</div>	
+		</div>
+			
+		<div class="container">
+			<h2>- Mes competences -</h2>
+				
+			<canvas id="myChart" width="400" height="400"></canvas>
+			<script>
+    			var data = [
+        		{
+           			value: 60,
+        			color:"#f3453c",
+           			highlight: "#FF5A5E",
+           			label: "HTML"
+        		},
+        		{
+        			value: 50,
+           			color: "#f4813a",
+           			highlight: "#fc9e67",
+           			label: "CSS"
+        		},
+        		{
+           			value: 40,
+        			color: "#f5ae28",
+           			highlight: "#FFC870",
+           			label: "JS"
+        		}
+    			]
+    			var myDoughnutChart = new Chart(
+        		document.getElementById("myChart").getContext("2d")).Doughnut(data, {segmentShowStroke : false});
+			</script>
+				
+			<h2>- Mes realisations -</h2>
+			<div class="clearfix">
+				<div class="first">
+					<a href="#" class="list-group-item shake">
+						<i class="fa fa-coffee fa-fw"></i>
+					</a>
+					
+					<h2>- On discute -</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deserunt, dolorem consectetur expedita? Alias rem, deserunt ipsa ea quis dolorem optio odit error accusamus ullam, natus reprehenderit aliquid nihil officiis!</p>
+				</div>
+				<div class="second">
+					<a href="#" class="list-group-item shake"><i class="fa fa-flask fa-fw"></i></a>
+					<h2>- On tente -</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deserunt, dolorem consectetur expedita? Alias rem, deserunt ipsa ea quis dolorem optio odit error accusamus ullam, natus reprehenderit aliquid nihil officiis!</p>
+				</div>
+				<div class="third">
+					<a href="#" class="list-group-item shake"><i class="fa fa-code fa-fw"></i></a>
+					<h2>- On code -</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deserunt, dolorem consectetur expedita? Alias rem, deserunt ipsa ea quis dolorem optio odit error accusamus ullam, natus reprehenderit aliquid nihil officiis!</p>
+				</div>
+			</div>
+
+
+			<h2>- Quelques exemples de realisations-</h2>
+			<h3>Orange Juise:</h3>
+			<div class="clearfix">
+				<div class="text padding_right">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cumque perspiciatis dolore placeat, velit ducimus dignissimos eveniet delectus reprehenderit quis voluptatum impedit, vitae ad molestiae nulla libero cum eius possimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quaerat dicta distinctio tempore odio, incidunt, nostrum saepe enim tempora labore eligendi ratione fugiat autem laudantium quia a illum, maiores iste! </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quaerat vero, nihil cupiditate cum. Rerum, necessitatibus corporis libero quo, ducimus similique fugit minus nam aliquid unde maxime doloremque tempora deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ut, fuga, modi eos qui voluptate est ad, a nulla iste itaque voluptas odit. Deleniti accusamus, corporis in quae maiores qui! </p>
+					<div class="plus">
+						<a href="#" class="list-group-item">En savoir plus <i class="fa fa-plus-circle fa-fw"></i></a>
+					</div>
+				</div>
+
+				<div class="photo">
+					<img src="img/real/1.png" alt="picture">
+				</div>
+			</div>
+			
+				
+			<h3>Time Past:</h3>
+			<div class="clearfix">
+				<div class="photo">
+					<img src="img/real/2.png" alt="picture">
+				</div>
+				<div class="text padding_left">
+						
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cumque perspiciatis dolore placeat, velit ducimus dignissimos eveniet delectus reprehenderit quis voluptatum impedit, vitae ad molestiae nulla libero cum eius possimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quaerat dicta distinctio tempore odio, incidunt, nostrum saepe enim tempora labore eligendi ratione fugiat autem laudantium quia a illum, maiores iste! </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quaerat vero, nihil cupiditate cum. Rerum, necessitatibus corporis libero quo, ducimus similique fugit minus nam aliquid unde maxime doloremque tempora deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ut, fuga, modi eos qui voluptate est ad, a nulla iste itaque voluptas odit. Deleniti accusamus, corporis in quae maiores qui! </p>
+
+					<div class="plus">
+						<a href="#" class="list-group-item">En savoir plus <i class="fa fa-plus-circle fa-fw"></i></a>
+					</div>
+				</div>
+			</div>
+			
+				
+			<h3>Aqua Plant:</h3>
+			<div class="clearfix">
+				<div class="text padding_right">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cumque perspiciatis dolore placeat, velit ducimus dignissimos eveniet delectus reprehenderit quis voluptatum impedit, vitae ad molestiae nulla libero cum eius possimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quaerat dicta distinctio tempore odio, incidunt, nostrum saepe enim tempora labore eligendi ratione fugiat autem laudantium quia a illum, maiores iste! </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quaerat vero, nihil cupiditate cum. Rerum, necessitatibus corporis libero quo, ducimus similique fugit minus nam aliquid unde maxime doloremque tempora deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ut, fuga, modi eos qui voluptate est ad, a nulla iste itaque voluptas odit. Deleniti accusamus, corporis in quae maiores qui! </p>
+
+
+					<div class="plus">
+						<a href="#" class="list-group-item">En savoir plus <i class="fa fa-plus-circle fa-fw"></i></a>
+					</div>
+				</div>
+				<div class="photo">
+					<img src="img/real/3.png" alt="picture">
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="container clearfix">
+		<h2>- Contactez-moi -</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta sed sint voluptate, enim minus expedita temporibus voluptatum modi. Qui id, temporibus. Beatae voluptates, officia debitis a minima quasi quam aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non consequuntur labore optio, veniam fuga odit officiis, porro ipsum, facilis provident accusamus velit sed molestias dolor necessitatibus nobis adipisci dolorem architecto!</p>
+	
+		<div class="input-left">
+			<form>
+				<div class="text-input">
+					<input type="text" name="our-name" value="" placeholder="votre prenom"/>
+				</div>
+			</form>
+		</div>
+		<div class="input-right">
+			<form>
+				<div class="text-input">
+					<input type="text" name="our-name" value="" placeholder="votre name"/>
+				</div>
+			</form>
+		</div>
+
+
+		<div class="input-bottom">
+			<form>
+				<div class="text-input">
+					<input type="text" name="our-name" value="" placeholder="votre message"/>
+				</div>
+			</form>
+		</div>
+	</footer>
+</body>
+</html>

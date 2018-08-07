@@ -1,0 +1,83 @@
+:root {
+  --color-brand: rgba(7, 54, 117, 1);
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Modifiyng bootstrap */
+
+.navbar--custom {
+  height: 10vh;
+}
+.navbar-brand__logo {
+  height: 100%;
+  object-fit: contain;
+}
+.nav-link--custom {
+  font-size: 1.2rem;
+  color: var(--color-brand);
+}
+.jumbotron--custom {
+  min-height: 80vh;
+  background-image: url('./assets/image.jpg');
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+.jumbotron--custom::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 140, 255, 0.2);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+/* New css */
+
+.jumbotron__arrow {
+  height: 3rem;
+  animation: arrow 1s ease infinite alternate;
+  position: absolute;
+  bottom: 2rem;
+}
+@keyframes arrow {
+  from {transform: translateY(1rem)}
+  to {transform: translateY(0)}
+}
+.section__image {
+  width: 100%;
+  object-fit: contain;
+}
+.section1 {
+  min-height: 75vh;
+  background-image: url('./assets/bg-white.svg');
+  background-size: 12rem;
+  font-size: 1.6rem;
+  color: var(--color-brand);
+}
+.section1__title {
+  font-size: 3.8rem;
+}
+.section2 {
+  min-height: 75vh;
+  background-image: url('./assets/bg-blue.svg');
+  background-size: 30rem;
+  position: relative;
+}
+.section2::before {
+  content: "";
+  position: absolute;
+  background-color: var(--color-brand);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+}
+.section2__text {
+  font-size: 3.4rem;
+}
+.section2__image-box {
+  max-height: 60vh;
+}

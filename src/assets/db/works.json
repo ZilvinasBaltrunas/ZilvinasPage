@@ -1,0 +1,41 @@
+[{
+	"id": 1,
+	"href": "../../assets/works/01-Stopwatch/index.html",
+	"src": "../assets/images/stopwatch.jpg",
+	"name": "Stopwatch"
+}, {
+	"id": 2,
+	"href": "../../assets/works/02-Countdown/index.html",
+	"src": "../assets/images/countdown.jpg",
+	"name": "Countdown"
+}, {
+	"id": 3,
+	"href": "../../assets/works/03-drag-drop/index.html",
+	"src": "../assets/images/drag.jpg",
+	"name": "Drag & Drop"
+}, {
+	"id": 4,
+	"href": "../../assets/works/04-case-quiz/index.html",
+	"src": "../assets/images/case.jpg",
+	"name": "Case Quiz"
+}, {
+	"id": 5,
+	"href": "../../assets/works/05-ToDo/index.html",
+	"src": "../assets/images/todo.jpg",
+	"name": "To Do list"
+}, {
+	"id": 6,
+	"href": "../../assets/works/06-api-photos/index.html",
+	"src": "../assets/images/pictures.jpg",
+	"name": "Photos API"
+}, {
+	"id": 7,
+	"href": "../../assets/works/07-api-weather/index.html",
+	"src": "../assets/images/weather.jpg",
+	"name": "Weather API"
+}, {
+	"id": 8,
+	"href": "../../assets/works/08-bmi/index.html",
+	"src": "../assets/images/bmi.jpg",
+	"name": "BMI counter"
+}]

@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F2F1F4;
+	line-height: 1.8;
+	color: #6a6d70;
+}
+
+.clearfix:after {
+    clear: both;
+    line-height: 0;
+    display: table;
+    content: ‘’;
+}
+
+h1, h2, h3 {
+	font-size: 1.4em;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	background-color: #30A894;
+	color: #fff;
+	padding-left: 10px;
+}
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/*---------HEADER----------*/
+
+header {
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+nav {
+	font-size: 1.6em;
+	background-color: #30A894;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	color: #fff;
+	padding: 0px 30px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*---------MAIN----------*/
+
+main {
+	float: left;
+	padding: 2em;
+	width: 75%;
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+main > img {
+	width: 100%;
+}
+
+/*---------ASIDE----------*/
+
+aside {
+	float:left;
+	width: 25%;
+	background-color: #B8DCB1;
+	color: #314C35;
+	padding: 20px;
+	margin-top: 0;
+}
+
+/*---------MOBILE----------*/
+
+@media (max-width: 767px) {
+	aside {
+		display: none;
+	}
+	
+	.container {
+		max-width: 100%;
+	}
+
+	main {
+		float: none;
+		padding: 1em;
+		width: 100%;
+	}
+	
+	nav, h1 {
+	font-size: 1em;
+	}
+	
+	nav li {
+		display: block;
+	}
+
+	nav a {
+		padding: 20px 30px;
+	}
+}
+
+/*---------TABLET----------*/
+
+@media (max-width: 991px) {
+	.container {
+		max-width: 100%;
+	}
+
+	main {
+		float: none;
+		padding: 1em;
+		width: 100%;
+	}
+
+	aside {
+		float: none;
+		width: 100%;
+	}
+
+	nav a {
+		padding: 20px 30px;
+	}
+}

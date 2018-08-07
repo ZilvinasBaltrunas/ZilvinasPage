@@ -1,0 +1,62 @@
+.container {
+	margin: 0 auto;
+	max-width: 1180px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.cube {
+		line-height: 1.6;
+		border: 0.5rem solid #fff;
+		max-width: 24rem;
+		// max-height: 22rem;
+		padding: 1rem;
+		.header {
+			margin-bottom: 1rem;
+		}
+		.text {
+			text-align: center;
+		}
+		.font-color {
+			color: #fff;
+		}
+		.signs {
+			text-align: center;
+			font-size: 2.5rem;
+			display: flex;
+			justify-content: space-around;
+			margin-top: 1rem;
+			color: #FFFFFF;
+		}
+	}
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.red {
+	color: #FF4500;
+}
+
+.blue {
+	color: #0000FF;
+}
+
+.yellow {
+	color: #FFD700;
+}
+
+@media only screen and (max-width: 460px) {
+	.cube {
+		margin-top: 4rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.cube {
+		margin-top: 7rem;
+	}
+}

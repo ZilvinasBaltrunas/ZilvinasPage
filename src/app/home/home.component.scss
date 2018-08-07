@@ -1,0 +1,38 @@
+.container {
+	// margin: 0 auto;
+	// max-width: 1180px;
+	// min-height: calc(100vh - 3rem);
+	position: relative;
+	margin-top: 3rem;
+	.video {
+		position: fixed;
+    	right: 0;
+    	bottom: 0;
+    	min-width: 100%; 
+    	min-height: 100%;
+	}
+	.text-box {
+		width: 30rem;
+		height: 15rem;
+		bottom: 0;
+		position: absolute;
+		top: 8rem;
+		left: -10rem;
+		color: #fff;
+		transform: rotate(-90deg);
+  		.portfolio {
+  			font-size: 5rem;
+  			transform: scaleY(3);
+  			transform-origin: 0 0;
+  			margin-top: 0;
+  			margin-bottom: 0;
+  			text-align: center;
+  		}
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.portfolio {
+		display: none;
+	}
+}

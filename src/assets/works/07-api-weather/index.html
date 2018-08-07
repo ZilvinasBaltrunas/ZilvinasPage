@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Weather</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body class="body">
+		<header class="header">
+			<h1 class="h1">Weather in your city</h1>
+
+		</header>
+
+		<div class="container">
+			<div class="entrance">
+				<p class="please">Please enter your city</p>
+				<input class="input" type="text" name="city"><br>
+				<button class="button">ENTER</button>
+			</div>
+			<div class="today">
+				<p>Current weather:</p>
+				<div class="icon"></div>
+				<p>City: <span class="underline name"></span></p>
+				
+				<p>Humidity: <span class="underline humidity"></span> %</p>
+				
+				<p>Pressure: <span class="underline pressure"></span> p</p>
+				
+				<p>Temperature: <span class="underline temperature"></span> &#176;C</p>
+				
+				<p>Wind Deg: <span class="underline windDeg"></span> &#176;</p>
+				
+				<p>Wind Speed: <span class="underline windSpeed"></span> m/s</p>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

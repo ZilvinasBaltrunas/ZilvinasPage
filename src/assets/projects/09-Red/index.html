@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="flexslider.css">
+	<link rel="stylesheet" type="text/css" href="styles9.css">
+
+	<script
+  	src="https://code.jquery.com/jquery-2.2.4.min.js"
+  	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  	crossorigin="anonymous"></script>
+  	<script src=jquery.flexslider.js></script>
+	
+	<title>Red Wolf</title>
+</head>
+<body>
+	<header class="container clearfix">
+		<a class="logo" href="#"><img src="img/logo.png" alt="picture"></a>
+		<nav class="nav">
+			<ul class="">
+				<li><a href="#">Concept</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Price</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+		<div class="flexslider">
+          	<ul class="slides">
+            	<li>
+  	    	   		<img src="img/slider/1.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    	<img src="img/slider/2.jpg" />
+  	    		</li>
+  	       	</ul>
+        </div>
+
+    <script type="text/javascript">
+    	$(window).load(function(){
+	      	$('.flexslider').flexslider({
+	        	animation: "slide",
+	       		start: function(slider){
+	        	$('body').removeClass('loading');
+	        	}
+	      	});
+    	});
+  	</script>
+
+  	
+
+
+	<main class="container">
+		<h2>take a look <span>at our work</span></h2>	
+		<div class="list clearfix">
+			<div class="column">
+				<div class="content">
+					<img src="img/team/1.jpg" alt="picture">
+					<h3>Bad dinosaur</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione eos totam ea non fugiat suscipit, tempore, quam labore dicta delectus placeat autem esse, doloribus harum voluptatum aperiam. Neque, eos.</p>
+				</div> 
+			</div>
+			<div class="column">
+				<div class="content">
+					<img src="img/team/2.jpg" alt="picture">
+					<h3>Bad dinosaur</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione eos totam ea non fugiat suscipit, tempore, quam labore dicta delectus placeat autem esse, doloribus harum voluptatum aperiam. Neque, eos.</p>
+				</div> 
+			</div>
+			<div class="column">
+				<div class="content">
+					<img src="img/team/3.jpg" alt="picture">
+					<h3>Bad dinosaur</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione eos totam ea non fugiat suscipit, tempore, quam labore dicta delectus placeat autem esse, doloribus harum voluptatum aperiam. Neque, eos.</p>
+				</div> 
+			</div>
+			<div class="column">
+				<div class="content">
+					<img src="img/team/4.jpg" alt="picture">
+					<h3>Bad dinosaur</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione eos totam ea non fugiat suscipit, tempore, quam labore dicta delectus placeat autem esse, doloribus harum voluptatum aperiam. Neque, eos.</p>
+				</div> 
+			</div>
+		</div>
+	</main>
+	<div class="lower container clearfix">
+		<h2>pour nous connaitre <span>plus en detail</span></h2>
+		<div class="left-text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quidem nisi, omnis perferendis cumque placeat quisquam corporis, dignissimos voluptate dolores ab, labore. Necessitatibus quas explicabo alias reiciendis placeat, error laboriosam?</p>
+			<div class="mygtukai">
+				<a href="#"><i class="fa fa-facebook-square"></i></a>
+				<a href="#"><i class="fa fa-twitter-square"></i></a>
+				<a href="#"><i class="fa fa-linkedin-square"></i></a>
+			</div>
+		</div>
+		<div class="video">
+			<video controls><source src="video.webm" type="video/mp4"></video>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<p>Lorem ipsum</p>
+			<p>dolor sit amet, consectetur adipisicing elit. Maiores magnam reprehenderit aperiam, aut, doloremque rem magni sapiente dolorum sed? Quasi consequatur vitae inventore nam quaerat similique beatae est mollitia animi.</p>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>		
+			<p>2015-3WA - excercise7 : Red Wolf</p>
+		</div>
+	</footer>
+
+</body>
+</html>
